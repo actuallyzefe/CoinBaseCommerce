@@ -56,7 +56,15 @@ a:visited:hover{
     background-color: rgba(203, 49, 203, 0.872);
 }
 
-
+@media (max-width:500px){
+    .container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        min-width: 15rem;
+        min-height: 20rem;
+    }
+}
 
 /* MAYBE SECTION 
 
