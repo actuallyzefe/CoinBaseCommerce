@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../public/images/image-equilibrium.jpg"
+    />
+    <link rel="stylesheet" href="../public/Styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>NFT preview card component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image">
+        <img class="main" src="/public/images/image-equilibrium.jpg" alt="" />
+      </div>
+      <div class="text">
+        <h2>Equilibrium #3429</h2>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+      <div class="eth_price">
+        <img
+          class="eth"
+          src="../public/images/icon-ethereum.svg"
+          alt="ethclass"
+        />
+        <p class="p1">0.041 ETH</p>
+        <img class="clock" src="../public/images/icon-clock.svg" alt="clock" />
+        <p class="p2">3 Days Left</p>
+      </div>
+      <hr />
+      <form action="<%=payment_link%>">
+        <div class="buy_button"><button type="submit">BUY NFT</button></div>
+      </form>
+      <div class="avatarSection">
+        <img src="../public/images/efeFor.jpeg" alt="avatar" />
+        
+        <!-- <p>
+            created by <a href="https://github.com/actuallyzefe">Efe Karakanlı</a>
+        </p> -->
+
+        <a href="https://github.com/actuallyzefe"
+          ><p><span>created by </span>Efe Karakanlı</p>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
