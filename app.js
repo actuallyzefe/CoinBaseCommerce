@@ -24,8 +24,8 @@ app.get("/buy-emir", async (req, res) => {
     },
     body: JSON.stringify({
       local_price: { amount: 0.99, currency: "ETH" },
-      redirect_url: "http://localhost:3000/accepted",
-      cancel_url: "http://localhost:3000/cancelled",
+      redirect_url: "https://coinbase-commerce-v2.herokuapp.com/accepted",
+      cancel_url: "https://coinbase-commerce-v2.herokuapp.com/cancelled",
       pricing_type: "fixed_price",
     }),
   };
